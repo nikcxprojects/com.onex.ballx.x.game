@@ -1,0 +1,26 @@
+<dependencies>
+  <packages>
+    <package>androidx.legacy:legacy-support-v4:1.0.0</package>
+    <package>com.google.android.gms:play-services-base:17.5.0</package>
+    <package>com.google.firebase:firebase-messaging:22.0.0</package>
+    <package>com.yandex.android:appmetricapush-plugin:2.3.0</package>
+    <package>com.yandex.android:mobmetricalib:5.0.0</package>
+    <package>com.yandex.android:mobmetricapushlib:2.2.0</package>
+  </packages>
+  <files />
+  <settings>
+    <setting name="androidAbis" value="arm64-v8a,armeabi-v7a" />
+    <setting name="bundleId" value="com.Company.Runner" />
+    <setting name="explodeAars" value="True" />
+    <setting name="gradleBuildEnabled" value="True" />
+    <setting name="gradlePropertiesTemplateEnabled" value="True" />
+    <setting name="gradleTemplateEnabled" value="False" />
+    <setting name="installAndroidPackages" value="True" />
+    <setting name="localMavenRepoDir" value="Assets/GeneratedLocalRepo" />
+    <setting name="packageDir" value="Assets/Plugins/Android" />
+    <setting name="patchAndroidManifest" value="True" />
+    <setting name="patchMainTemplateGradle" value="True" />
+    <setting name="projectExportEnabled" value="False" />
+    <setting name="useJetifier" value="True" />
+  </settings>
+</dependencies>
